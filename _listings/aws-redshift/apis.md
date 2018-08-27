@@ -11,11 +11,50 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Certificate
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificate/master/_listings/aws-redshift/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Redshift API - Create Hsm Client Certificate
+  x-api-slug: actioncreatehsmclientcertificate-get
+  description: |-
+    Creates an HSM client certificate that an Amazon Redshift cluster will use to connect to
+                the client's HSM in order to store and retrieve the keys used to encrypt the cluster
+                databases.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
+  humanURL: https://aws.amazon.com/redshift/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Data Warehouse, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificate/master/_listings/aws-redshift/actioncreatehsmclientcertificate-get-openapi.md
+- name: AWS Redshift API - Delete Hsm Client Certificate
+  x-api-slug: actiondeletehsmclientcertificate-get
+  description: Deletes the specified HSM client certificate.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
+  humanURL: https://aws.amazon.com/redshift/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Data Warehouse, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificate/master/_listings/aws-redshift/actiondeletehsmclientcertificate-get-openapi.md
+- name: AWS Redshift API - Describe Hsm Client Certificates
+  x-api-slug: actiondescribehsmclientcertificates-get
+  description: Returns information about the specified HSM client certificate.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
+  humanURL: https://aws.amazon.com/redshift/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Data Warehouse, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificate/master/_listings/aws-redshift/actiondescribehsmclientcertificates-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.rds.api.gallery.streamdata.io

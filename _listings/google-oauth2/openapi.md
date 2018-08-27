@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Google OAuth2
 x-complete: 1
@@ -30,4 +29,3 @@ paths:
       tags:
       - Certificate
       - Certfication
----

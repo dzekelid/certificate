@@ -8,11 +8,39 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "95684"
 tags: Certificate
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificate/master/_listings/mattermost/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Mattermost API Reference - Upload IDP certificate
+  x-api-slug: samlcertificateidp-post
+  description: |-
+    Upload the IDP certificate to be used with your SAML configuration. This will also set the filename for the IdpCertificateFile setting in your `config.json`.
+    ##### Permissions
+    Must have `manage_system` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificate/master/_listings/mattermost/samlcertificateidp-post-openapi.md
+- name: Mattermost API Reference - Remove IDP certificate
+  x-api-slug: samlcertificateidp-delete
+  description: |-
+    Delete the current IDP certificate being used with your SAML configuration. This will also disable SAML on your system as this certificate is required for SAML.
+    ##### Permissions
+    Must have `manage_system` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificate/master/_listings/mattermost/samlcertificateidp-delete-openapi.md
 - name: Mattermost API Reference - Upload public certificate
   x-api-slug: samlcertificatepublic-post
   description: |-
@@ -45,6 +73,20 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificate/master/_listings/mattermost/samlcertificatepublic-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificate/master/_listings/mattermost/samlcertificatepublic-delete-openapi.md
+- name: Mattermost API Reference - Get certificate status
+  x-api-slug: samlcertificatestatus-get
+  description: |-
+    Get the status of the uploaded certificates and keys in use by your SAML configuration.
+    ##### Permissions
+    Must have `manage_system` permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
+  humanURL: https://mattermost.com
+  baseURL: https://your-mattermost-url.com//api/v4
+  tags: Enterprise, SaaS, Technology, Cloud, API Provider, API Service Provider, Profiles,
+    Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificate/master/_listings/mattermost/samlcertificatestatus-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://matrix.api.gallery.streamdata.io

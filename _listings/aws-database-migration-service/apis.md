@@ -17,11 +17,44 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Certificate
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificate/master/_listings/aws-database-migration-service/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Database Migration Service API - Delete Certificate
+  x-api-slug: actiondeletecertificate-get
+  description: Deletes the specified certificate.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AWSDatabaseMigrationService.png
+  humanURL: https://aws.amazon.com/dms/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Databases, Migrations, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificate/master/_listings/aws-database-migration-service/actiondeletecertificate-get-openapi.md
+- name: AWS Database Migration Service API - Describe Certificates
+  x-api-slug: actiondescribecertificates-get
+  description: Provides a description of the certificate.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AWSDatabaseMigrationService.png
+  humanURL: https://aws.amazon.com/dms/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Databases, Migrations, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificate/master/_listings/aws-database-migration-service/actiondescribecertificates-get-openapi.md
+- name: AWS Database Migration Service API - Import Certificate
+  x-api-slug: actionimportcertificate-get
+  description: Uploads the specified certificate.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AWSDatabaseMigrationService.png
+  humanURL: https://aws.amazon.com/dms/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Databases, Migrations, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificate/master/_listings/aws-database-migration-service/actionimportcertificate-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.data.pipeline.api.gallery.streamdata.io
